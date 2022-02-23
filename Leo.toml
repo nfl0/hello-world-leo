@@ -1,0 +1,16 @@
+[project]
+name = "hello-world-leo"
+version = "0.1.0"
+description = "The hello-world package"
+license = "MIT"
+
+[remote]
+author = "morocco" # Add your Aleo Package Manager username or team name.
+
+[target]
+curve = "bls12_377"
+proving_system = "groth16"
+
+[dependencies]
+# Define dependencies here in format:
+# name = { package = "package-name", author = "author", version = "version" }
